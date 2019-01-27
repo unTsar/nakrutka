@@ -45,4 +45,9 @@ $(document).ready(function(){
   		}
   	}
   });
+
+  // BPopup
+  $("#submit").click(function() {
+    $('.popup').bPopup();
+  })
 });

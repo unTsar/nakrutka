@@ -1,20 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru-RU">
-  <head>
+  <head> 
     <meta charset="utf-8">
     <title>Накрутка в инстаграм подписчиков, лайков, просмотров, комментариев...</title><!--[if IE]>
     <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="">
+    <link rel="stylesheet" type='text/css' href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type='text/css' href="static/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" type='text/css' href="static/css/normalize.css">
+    <link rel="stylesheet" type='text/css' href="static/css/owl.carousel.min.css"> 
+    <link rel="stylesheet" type='text/css' href="static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" type='text/css' href="static/css/et-line.css">
+    <link rel="stylesheet" type='text/css' href="static/css/animate.css">
     <link rel="stylesheet" type="text/css" href="static/css/styles.css">
     <link rel="shortcut icon" href="static/images/general/favicon.ico" type="image/x-icon"><!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script><![endif]-->
   </head>
   <body class="index-page">
+    <div class="popup">
+      <span class="title">Внимание!</span>
+      <br>
+      <img src="static/images/content/gift.png" alt="gift.png">
+      <br>
+      <span class="desc">ВЫ НАШ 1000-й КЛИЕНТ <br>У НАС ЕСТЬ ДЛЯ ВАС <br>ПОДАРОК!</span>
+      <br>
+      <div class="button"><a href="#"><span>Забрать подарок</span></a></div>
+    </div>
     <div class="container-fluid">
       <div class="bg"></div>
       <header id="header">
-        <div class="logo col-12"><a href="https://nakrutka.by"><img src="static/images/general/logo.png" alt="logo"><span>Nakrutka</span></a></div>
+        <div class="logo col-12"><img src="static/images/general/logo.png" alt="logo"><span>Nakrutka</span></div>
         <div class="container"><span class="desc">Быстро, качественно, с гарантией! </span>
           <h1>Накрутка инстаграм</h1>
           <div class="button" onclick="scrTo('#secForm');">Бесплатная накрутка</div>
@@ -55,7 +71,7 @@
                 <input class="form-control" type="number" placeholder="Сколько крутить" required>
               </div>
             </form>
-            <div class="button"><a class="submit" href="#">Заказать</a></div>
+            <div class="button"><a class="submit" id="submit">Заказать</a></div>
           </div>
           <p>1. Одновременный запуск нескольких однотипных накруток по одной ссылке приведет к ошибкам и недокрутке без возможности перерасчета... <br/> 2. После отправки заказ невозможно отменить (если отсутствует такая возможность в кабинете).</p>
         </div>
@@ -125,5 +141,6 @@
     <script src="static/js/libs.min.js"></script>
     <script src="static/js/owl.carousel.min.js"></script>
     <script src="static/js/main.js"></script>
+    <script src="static/js/jquery.bpopup.min.js"></script>
   </body>
 </html>
