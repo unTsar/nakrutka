@@ -102,7 +102,7 @@ body {
     }
     body .popup .button{
       margin: 20px auto;
-      width: 275px;
+      width: 75%;
       font-size: 24px;
       display: -webkit-flex;
       display: -moz-flex;
@@ -449,6 +449,9 @@ footer {
   body header .container h1 {
     font-size: 24px;
     letter-spacing: 24px; }
+  body .popup, body .popup .button{
+    font-size: 24px;
+  }
   body section.advantages .wrapper {
     padding: 10px 15px; } }
 
@@ -459,14 +462,25 @@ footer {
     font-size: 18px;
     letter-spacing: 15px; }
   body section.services .wrapper .tabs {
-    padding: 0 25px; } }
+    padding: 0 25px; } 
+  body .popup, body .popup .button{
+    font-size: 18px;}
+  body .popup .button{width: 95%;}}
 
 @media only screen and (max-width: 600px) {
   body header .container span.desc {
     margin-bottom: 65px;
     letter-spacing: 3px; }
   body header .container h1 {
-    letter-spacing: 10px; } }
+    letter-spacing: 10px; }
+  body .popup .button{
+    width: 100%;
+  }
+  body .popup{
+    padding: 25px;
+  }
+  body .popup, body .popup .button{
+    font-size: 14px;}}
 
 @media only screen and (max-width: 500px) {
   body header .container span.desc {
@@ -482,6 +496,14 @@ footer {
   body header .container span.desc {
     font-size: 10px;
     letter-spacing: 2px; }
+  body .popup img{
+    width: 65px;
+  }
+  body .popup{
+    padding: 15px;
+  }
+  body .popup, body .popup .button{
+    font-size: 12px;}
   body header .container h1 {
     font-size: 14px;
     letter-spacing: 6px; } }
